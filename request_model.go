@@ -75,6 +75,7 @@ type GoDataQuery struct {
 	InlineCount *GoDataInlineCountQuery
 	Search      *GoDataSearchQuery
 	Format      *GoDataFormatQuery
+	At          *GoDataFilterQuery
 }
 
 // Stores a parsed version of the filter query string. Can be used by
